@@ -43,10 +43,6 @@ const Carousel = (props) => {
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 1,
-      
-      // centerMode: true,
-      // nextArrow: true,
-      // prevArrow: true
       responsive: [
         {
           breakpoint: 1920,

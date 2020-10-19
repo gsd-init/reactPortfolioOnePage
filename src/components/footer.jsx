@@ -10,15 +10,9 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaFileDownload  } from "react-icons/f
 const Footer = () => {
     
     const [copiedSuccess, setCopiedSuccess] = useState('')
-    const [value, setValue] = useState('teste ok Hey');
+    const [value, setValue] = useState('gsdias22@gmail.com');
    
    
-
-    // const onChange=({target: {value}})=>{
-    //     setValue = ({value, copied: false});      
-        
-    // };
-
     const onCopy = (value, e) => {       
         setCopiedSuccess('Copied test!');       
         $(document).ready(function() {
