@@ -74,7 +74,7 @@ const Carousel = (props) => {
             initialSlide: 2,
             slidesToScroll: 1,
             vertical: true,
-            verticalSwiping: false,
+            verticalSwiping: true,
           },
         },
         {
@@ -146,7 +146,8 @@ const Carousel = (props) => {
         </Row>
 
         <Row>
-          <Col>
+        <Col></Col>
+          <Col xl={11}>
           <section id="projects-section">
             <Slider ref={(c) => (slider = c)} {...settings} className="carousel-all">
 
@@ -239,6 +240,7 @@ const Carousel = (props) => {
           </div>
       </section>             
           </Col>
+          <Col></Col>
         </Row>
 
         <Row>
